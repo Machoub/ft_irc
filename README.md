@@ -43,7 +43,7 @@ make re      # Recompile the project from scratch
 <password>: required for any client trying to connect
 
 Example:
-```
+
 | Command   | Description                                        |
 | --------- | -------------------------------------------------- |
 | `PASS`    | Authenticate with the server password              |
@@ -55,7 +55,7 @@ Example:
 | `INVITE`  | Invite a user to a channel                         |
 | `TOPIC`   | Set or view a channel topic                        |
 | `MODE`    | Set channel/user modes (e.g., operator privileges) |
-```
+
 
 🧪 Testing & Tools
 🔧 With netcat (basic)
@@ -91,13 +91,13 @@ Commands inside irssi:
  ```
 🧪 Advanced Debug & Tools
 
- ```
+ 
 | Command                                                              | Purpose                           |
 | -------------------------------------------------------------------- | --------------------------------- |
 | `lsof -i :<port>`                                                    | Check open connections on a port  |
 | `kill -9 $(lsof -t -i :<port>)`                                      | Kill active processes on the port |
 | `valgrind --leak-check=full --track-fds=yes ./ircserv <port> <pass>` | Memory + file descriptor check    |
- ```
+
 
 ## 👨‍💻 Author
   
