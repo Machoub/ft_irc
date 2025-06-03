@@ -103,7 +103,7 @@ Commands inside irssi:
   
 - [machouba](https://github.com/Machoub) 
 - [gdoubrem](https://github.com/GinoDbm)
-- [ayoubkhm](https://github.com/ayoubkhm)
+- [ayoubkhm](https://github.com/ayoubkhm)  
 42 Paris 
 
 ## Ressources Utilisées
