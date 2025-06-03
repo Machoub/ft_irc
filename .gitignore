@@ -1,0 +1,35 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+*.o
+*.out
+*.log
+*.a
+*.d
+*.dSYM/
+*.obj
+*.exe
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.sublime-workspace
+*.sublime-project
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Binary
+ircserv
+
+# Misc
+*.tmp
+*.bak
